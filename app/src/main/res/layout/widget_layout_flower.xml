@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/widget_margin"
+    android:id="@+id/widget_holder">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include
+            android:id="@+id/grass_strip0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/grass_strip"/>
+        <include
+            android:id="@+id/cut_grass_strip0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/cut_grass_strip"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include
+            android:id="@+id/grass_strip1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/grass_strip"/>
+        <include
+            android:id="@+id/cut_grass_strip1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/cut_grass_strip"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include
+            android:id="@+id/grass_strip2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/grass_strip"/>
+        <include
+            android:id="@+id/cut_grass_strip2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/cut_grass_strip"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include
+            android:id="@+id/grass_strip3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/grass_strip"/>
+        <include
+            android:id="@+id/cut_grass_strip3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/cut_grass_strip"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include
+            android:id="@+id/grass_strip4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/grass_strip"/>
+        <include
+            android:id="@+id/cut_grass_strip4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/cut_grass_strip"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include
+            android:id="@+id/grass_strip5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/grass_strip"/>
+        <include
+            android:id="@+id/cut_grass_strip5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/cut_grass_strip"/>
+    </FrameLayout>
+</LinearLayout>

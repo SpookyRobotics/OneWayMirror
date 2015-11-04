@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:columnCount="4"
+    android:rowCount="3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/brick_view_top_spacing"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/brick_view_top_spacing"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/brick_view_top_spacing"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/brick_view_top_spacing"/>
+
+
+
+    <ImageView
+        android:id="@+id/brick5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/brick"/>
+
+    <ImageView
+        android:id="@+id/brick6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/brick"/>
+
+    <ImageView
+        android:id="@+id/brick7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/brick"/>
+
+    <ImageView
+        android:id="@+id/brick8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/brick"/>
+
+
+    <ImageView
+        android:id="@+id/brick1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/brick"/>
+
+    <ImageView
+        android:id="@+id/brick2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/brick"/>
+    <ImageView
+        android:id="@+id/brick3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/brick"/>
+
+    <ImageView
+        android:id="@+id/brick4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/brick"/>
+
+
+
+</GridLayout>
